@@ -1,5 +1,5 @@
 import cv2
-image = cv2.imread("image.png")
+image = cv2.imread("Virat_Kohli.jpg")
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 inverted = 255-gray_image
 blur = cv2.GaussianBlur(inverted, (21, 21), 0)
